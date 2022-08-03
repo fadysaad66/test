@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ClassLibary1</id>
+    <version>1.0.0.0</version>
+    <title>This is a test library</title>
+    <authors>Your name</authors>
+    <owners>Your name</owners>
+    <licenseUrl>http://www.closebrothers.com</licenseUrl>
+    <projectUrl>http://www.closebrothers.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a test project to deploy out to Nuget</description>
+    <releaseNotes>This release contains the following changes...
+    sadf asdf asdf asdf asdf asdf asdf asf asdf sdf adsfasdf 
+    asdf asdf asdf asdf asd asdf asdf asdf sadf asdf asdf
+    as dfasf asdf asdf asdf asdf asdf asd</releaseNotes>
+  </metadata>
+</package>
