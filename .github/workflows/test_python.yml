@@ -9,7 +9,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Run Python script
-        run: python hivebox.py
+        run: python test.py
+
    
  build:  
   needs: {test}
