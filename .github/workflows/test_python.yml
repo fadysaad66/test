@@ -1,0 +1,28 @@
+name: test_python
+
+on: push
+env:
+    TEST: "get artifact"
+
+jobs:
+ test:
+  runs-on: ubuntu-latest
+  steps:
+   - name: test python
+   - uses: action/checkout@v4
+   - run: python hivebox.py
+   
+ build:  
+  needs: test
+  runs-on: ubuntu-latest
+  steps:
+     - name: step one
+       uses: actions/checkout@v4
+     - name: step two
+       uses: actions/upload-artifact@v4
+       with: 
+          name: ${{ env.TEST}}
+          path: .
+   
+     
+   
