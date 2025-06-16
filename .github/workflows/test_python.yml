@@ -6,7 +6,6 @@ jobs:
  test:
   runs-on: ubuntu-latest
   steps:
-   - name: test python
    - uses: action/checkout@v4
    - run: python hivebox.py
    
