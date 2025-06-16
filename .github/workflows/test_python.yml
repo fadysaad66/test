@@ -8,20 +8,10 @@ jobs:
    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Run Python script
+      - name: run
         run: python test.py
 
    
- build:  
-  needs: {test}
-  runs-on: ubuntu-latest
-  steps:
-     - name: test
-     - uses: actions/checkout@v4
-     - uses: actions/upload-artifact@v4
-       with: 
-          name: artifact hivebox
-          path: .
    
      
    
