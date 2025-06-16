@@ -7,7 +7,8 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - uses: action/checkout@v4
-   - run: python hivebox.py
+   - name: Run Python script 
+     run: python hivebox.py
    
  build:  
   needs: {test}
