@@ -4,4 +4,6 @@ def version_count():
     print (" The Current Version Of The App Is : " + version)
     sys.exit()
 
-version_count()
+if __name__ == "__main__":
+    version_count()
+
